@@ -1,0 +1,23 @@
+{
+  "name": "seotils/yii2-ar-indirect-fields",
+  "type": "yii2-extension",
+  "version" : "0.0.1",
+  "description": "ActiveRecord with indirectly modifiable fields for yii2 framework.",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4.0",
+    "yiisoft/yii2": "~2.0.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "seotils\\yii2\\": "/src"
+    }
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nikolay Lubyshev",
+      "email": "seotils@gmail.com"
+    }
+  ]
+}
